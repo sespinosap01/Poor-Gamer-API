@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+body {
+    background-color: rgb(47, 10, 10);
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(16, 16, 16);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+
+}
+
+
+.contenedorTexto {
+    color: rgb(214, 214, 214);
+    margin-top: 10%;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+.contenedorResultados {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carta {
+    color: rgb(214, 214, 214);
+    margin: 2%;
+    background-color: rgb(16, 16, 16);
+    border-radius: 24px;
+    width: 17%;
+    height: 320px;
+    text-decoration: none;
+    transition: transform 0.4s, background-color 0.4s;
+    box-shadow: 5px 5px 4px 0px rgba(248, 52, 52);
+
+}
+
+.carta:hover {
+    transform: translateY(-15px);
+    background-color: rgb(34, 34, 34);
+}
+
+.botonJugar {
+    margin: 3%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.botonJugar a {
+    text-decoration: none;
+    color: rgba(248, 52, 52);
+}
+
+.fotoJuego {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.contenidoDatos {
+    padding: 5%;
+    font-size: 15px;
+}
+
+.imgNoFav {
+    width: 20%;
+    height: 20%;
+    margin: 1%;
+    margin-top: 4%;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.imgNoFav:hover {
+    opacity: 50%;
+}
+
+.alinearBotonYFav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.filtro {
+    display: none;
+}

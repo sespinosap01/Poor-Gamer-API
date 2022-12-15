@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poor-Gamer API</title>
+    <link rel="icon" type="image/x-icon" href="./IMG/logo2.png">
+    <link rel="stylesheet" href="CSS/estiloIndex.css">
+    <script src="JS/appIndex.js" defer></script>
+
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="IMG/logo2.png" alt="logo">
+    </div>
+
+    <div class="eslogan">
+        <p>Sin pagar, se puede jugar</p>
+    </div>
+
+    <div class="contenedorOpciones">
+        <p><a href="HTML/busqueda.html"> Buscar Juego</a> || <a href="HTML/favoritos.html"> Ver Favoritos</a> || <a href="HTML/aleatorio.html"> Juego Aleatorio</a> </p>
+    </div>
+
+    <div class="contenedorCartas" id="contenedorCartas">
+
+        <h1 style="color: white;">Cargando...</h1>
+        <!--Generado dinamicamente-->
+    </div>
+
+
+    <div class="contenedorCajaComentarios">
+          <h2>Caja de Comentarios</h2>
+          <br>
+            <div>
+              <form id="formulario">
+                <textarea id="cajaComentarios" cols="30" rows="5" placeholder="Escribe un comentario"></textarea>
+                <br><br>
+                <button type="submit" class="botonAnadir">Comentar</button>
+              </form>
+            </div>
+            <div id="contenido">
+                <!--Generado dinamicamente-->
+            </div>
+    </div>
+
+
+    <div class="footer">
+        <p> ©Sergio Espinosa 2022</p>
+    </div>
+</body>
+
+</html>

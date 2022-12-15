@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+body {
+    background-color: #272727;
+    background-image: url(../IMG/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(16,16,16);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+
+}
+
+.pregunta{
+    color: rgb(214, 214, 214);
+
+}
+
+.contenedorTextoyBoton {
+    margin-top: 10%;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.botonAleatorio{
+    padding: 2%;
+    border-radius: 10px;
+    color:  rgba(248,52,52);
+    transition: transform 0.4s, background-color 0.4s;
+}
+
+.botonAleatorio:hover{
+    transform: translateY(-5px);
+    background-color: rgb(138, 138, 138);;
+}
+
+.contenedorResultados {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carta {
+    color: rgb(214, 214, 214);
+    margin: 1%;
+    background-color: rgb(16,16,16);
+    border-radius: 24px;
+    width: 20%;
+    height: 360px;
+    text-decoration: none;
+    transition: transform 0.4s, background-color 0.4s;
+    box-shadow: 5px 5px 4px 0px rgba(248,52,52);
+
+}
+
+.carta:hover {
+    transform: translateY(-15px);
+    background-color: rgb(34, 34, 34);
+}
+
+.centrarBoton{
+    text-align: center;
+}
+
+.botonJugar{
+    margin: 3%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.botonJugar a{
+    text-decoration: none;
+    color:  rgba(248,52,52);
+}
+
+.carta img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+
+.nombreJuego{
+    text-align: center;
+    color: rgb(214, 214, 214);
+}
+
+.nombreDesarrolladora{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.contenidoDatos{
+    padding: 5%;
+    font-size: 15px;
+}
